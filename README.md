@@ -10,6 +10,10 @@ RTSP Stream Server是一款专为监控而生的直播服务器，程序内置拉取RTSP视频源，可同时
 RTSP(TCP/UDP)，RTMP，HLS，HTTP-TS，HTTP-FLV，并且具有NVR录制功能，按天录制，可   
 录制MP4，FLV，TS格式。  
 
+**使用方法：**  
+在rtsp.lua文件中配置视频地址就行     
+本程序纯绿色无需安装，运行mediasrv.exe就可以。
+
 **技术参数：**  
 1） 支持多CPU多核心，采用并行流水线架构，多nb的硬件都能完全发挥性能。   
 2） 7x24 全天候稳定运行。   
